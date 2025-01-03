@@ -40,5 +40,5 @@ jobs:
             repository: ${{ github.repository }}
             committer: ${{ github.actor }}
             branch: ${{ steps.extract_branch.outputs.branch }}
-            compare: [view](${{ github.event.compare }})
+            compare: ${{ github.event.compare }}
             job status: ${{ job.status }}
