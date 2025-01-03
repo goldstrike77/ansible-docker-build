@@ -24,4 +24,6 @@ RUN mkdir /ansible && \
 
 WORKDIR /ansible
 
+RUN pip3 list
+
 CMD [ "ansible-playbook", "--version" ]
