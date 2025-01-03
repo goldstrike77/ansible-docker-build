@@ -32,7 +32,7 @@ jobs:
           wechat_id: ${{ secrets.WECHAT_COMPANY_ID }}
           agent_secret: ${{ secrets.WECHAT_APP_SECRET }}
           agent_id: 1000003
-          to_user: '@all'
+          to_user: 'suzhetao'
           msgtype: text
           send_step: post
           content: |
