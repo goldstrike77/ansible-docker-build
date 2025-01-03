@@ -34,7 +34,7 @@ jobs:
           agent_id: 1000003
           to_user:
           msgtype: text
-          send_step: main
+          send_step: post
           content: |
             ## action test
             > from github action test
