@@ -33,11 +33,10 @@ jobs:
           agent_secret: ${{ secrets.WECHAT_APP_SECRET }}
           agent_id: 1000003
           to_user: 'suzhetao'
-          msgtype: text
+          msgtype: markdown
           send_step: post
           content: |
-            ## action test
-            > from github action test
+            ## from github action
             - repository: ${{ github.repository }}
             - committer: ${{ github.actor }}
             - compare: [view](${{ github.event.compare }})
